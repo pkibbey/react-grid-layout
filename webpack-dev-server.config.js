@@ -42,7 +42,7 @@ module.exports = {
     devServer: {
         publicPath: '/examples/',
         compress: true,
-        port: 4002
+        port: 9090
     },
     resolve: {
       extensions: [".webpack.js", ".web.js", ".js", ".jsx"],

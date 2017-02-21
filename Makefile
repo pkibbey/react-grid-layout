@@ -18,8 +18,8 @@ clean:
 	rm -rf $(BUILD) $(DIST)
 
 dev:
-	echo 'Open http://localhost:4002'
-	@$(BIN)/webpack-dev-server --config webpack-dev-server.config.js --hot --progress --colors --port 4002 --content-base .
+	echo 'Open http://localhost:9090'
+	@$(BIN)/webpack-dev-server --config webpack-dev-server.config.js --hot --progress --colors --port 9090 --content-base .
 
 # Allows usage of `make install`, `make link`
 install link:
